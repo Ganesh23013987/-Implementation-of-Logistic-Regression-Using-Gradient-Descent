@@ -37,12 +37,12 @@ dataset = pd.read_csv("/content/Placement_Data.csv")
 dataset.head()
 dataset.tail()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/be9aa1d4-7aad-44cf-b1b1-781248f7491c">
+<img width="850" alt="image" src="https://github.com/user-attachments/assets/be9aa1d4-7aad-44cf-b1b1-781248f7491c">
 
 ```
 dataset.info()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/8050d443-28db-40d6-a28f-dbead9cd589f">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/8050d443-28db-40d6-a28f-dbead9cd589f">
 
 ```
 dataset=dataset.drop(['sl_no'],axis=1)
@@ -51,7 +51,7 @@ dataset=dataset.drop(['sl_no'],axis=1)
 ```
 dataset.info()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/c926ae8f-5565-4bc8-ae9e-18009e2ff431">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/c926ae8f-5565-4bc8-ae9e-18009e2ff431">
 
 ```
 dataset["gender"]=dataset["gender"].astype('category')
@@ -67,7 +67,7 @@ dataset["hsc_s"]=dataset["hsc_s"].astype('category')
 ```
 dataset.info()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/059be377-510b-425a-a981-7f819f353342">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/059be377-510b-425a-a981-7f819f353342">
 
 ```
 dataset["gender"]=dataset["gender"].cat.codes
@@ -83,7 +83,7 @@ dataset["hsc_s"]=dataset["hsc_s"].cat.codes
 ```
 dataset.info()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/12cc71d2-3d2a-4690-acff-096ef58bf519">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/12cc71d2-3d2a-4690-acff-096ef58bf519">
 
 ```
 X=dataset.iloc[:,:-1].values
@@ -131,12 +131,12 @@ xnew = np.array([[0, 0, 0, 0, 0, 2, 8, 2, 0, 0, 1, 0]])
 y_prednew = predict(theta, xnew)
 print(y_prednew)
 ```
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/3c5d0ec6-cac5-4bf5-890b-7759652930c9">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/3c5d0ec6-cac5-4bf5-890b-7759652930c9">
 
 ```
 print(theta)
 ```
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/4f42f527-0576-400f-a082-7ca0602c0664">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/4f42f527-0576-400f-a082-7ca0602c0664">
 
 
 
