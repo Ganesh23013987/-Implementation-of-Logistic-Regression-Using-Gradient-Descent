@@ -37,7 +37,7 @@ dataset = pd.read_csv("/content/Placement_Data.csv")
 dataset.head()
 dataset.tail()
 ```
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/be9aa1d4-7aad-44cf-b1b1-781248f7491c">
+<img width="1250" alt="image" src="https://github.com/user-attachments/assets/be9aa1d4-7aad-44cf-b1b1-781248f7491c">
 
 ```
 dataset.info()
